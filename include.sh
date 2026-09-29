@@ -1,0 +1,1 @@
+# AzerothCore module loader marker.

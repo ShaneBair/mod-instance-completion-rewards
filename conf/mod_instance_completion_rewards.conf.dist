@@ -1,0 +1,82 @@
+#
+# Copyright (C) 2026 DaBoysZeroth contributors
+#
+
+[worldserver]
+
+########################################
+# Instance Completion Rewards
+########################################
+
+#
+# InstanceCompletionRewards.Enable
+# Description: Enables completion emblem rewards. AutoBalance.reward.enable
+#              should remain disabled to prevent double rewards.
+# Default:     0 - Disabled
+#              1 - Enabled
+#
+InstanceCompletionRewards.Enable = 1
+
+#
+# InstanceCompletionRewards.Dungeon.Item
+# InstanceCompletionRewards.Dungeon.Count
+# Description: Item entry and exact quantity awarded after a completed dungeon.
+#              Set either value to 0 to disable dungeon rewards.
+# Default:     Item 47241 - Emblem of Triumph
+#              Count 30
+#
+InstanceCompletionRewards.Dungeon.Item = 47241
+InstanceCompletionRewards.Dungeon.Count = 30
+
+#
+# InstanceCompletionRewards.Raid.Item
+# InstanceCompletionRewards.Raid.Count
+# Description: Item entry and exact quantity awarded after a completed raid.
+#              Set either value to 0 to disable raid rewards.
+# Default:     Item 49426 - Emblem of Frost
+#              Count 30
+#
+InstanceCompletionRewards.Raid.Item = 49426
+InstanceCompletionRewards.Raid.Count = 30
+
+#
+# InstanceCompletionRewards.MinimumPlayers
+# Description: Minimum number of reward-eligible players who must be present in
+#              the instance when its final encounter completes.
+# Default:     1
+#
+InstanceCompletionRewards.MinimumPlayers = 1
+
+#
+# InstanceCompletionRewards.MinimumPlayerLevel
+# Description: Minimum character level required to receive a reward. Set to 0
+#              to allow characters of every level.
+# Default:     80
+#
+InstanceCompletionRewards.MinimumPlayerLevel = 80
+
+#
+# InstanceCompletionRewards.MinimumExpansion
+# Description: Minimum expansion of the completed instance. Client expansion
+#              values are 0 = Classic, 1 = Burning Crusade, and 2 = WotLK.
+# Default:     2 - WotLK only
+#
+InstanceCompletionRewards.MinimumExpansion = 2
+
+#
+# InstanceCompletionRewards.RewardBots
+# Description: Allows headless Playerbots to receive rewards and count toward
+#              MinimumPlayers.
+# Default:     0 - Disabled
+#              1 - Enabled
+#
+InstanceCompletionRewards.RewardBots = 1
+
+#
+# InstanceCompletionRewards.RewardGameMasters
+# Description: Allows game-master characters to receive rewards and count
+#              toward MinimumPlayers.
+# Default:     0 - Disabled
+#              1 - Enabled
+#
+InstanceCompletionRewards.RewardGameMasters = 1

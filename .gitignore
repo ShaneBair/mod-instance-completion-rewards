@@ -1,0 +1,13 @@
+*.bak
+*.diff
+*.orig
+*.patch
+*.rej
+*.swp
+*.tmp
+*~
+.DS_Store
+.idea/
+.settings/
+.vscode/
+CMakeLists.txt.user
